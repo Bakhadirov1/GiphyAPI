@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+        integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <ul class="nav_ul">
+                <li>
+                    <a href="#" onclick="goHome()">Home</a>
+                </li>
+                <li>
+                    <a href="https://giphy.com/">Giphy.com</a>
+                </li>
+            </ul>
+            <form action="" id="search">
+                <input id="search_input" type="text" placeholder="Search gifs"><button type="submit">Search</button>
+            </form>
+
+        </nav>
+
+        <section>
+            <h1 id="main_h1">Trendy gifs</h1>
+            <div class="gifs">
+
+            </div>
+            <button onclick="showMore()" id="show-more_button">Load More</button>
+        </section>
+    </div>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
